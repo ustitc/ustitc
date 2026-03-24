@@ -9,11 +9,20 @@
 {{ end }}
 
 <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | absURL }}">
-<link rel="apple-touch-icon-precomposed" href="{{ "favicon.png" | absURL }}">
 
-{{ partial "resource.html" (dict "context" . "type" "css" "filename" "css/main.css") }}
+{{- $css := resources.Get "css/main.css" -}}
+{{- if hugo.IsProduction -}}
+    {{- $css = $css | resources.Minify -}}
+{{- end -}}
+{{- $css = $css | resources.Fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
 
-{{ partial "resource.html" (dict "context" . "type" "js" "filename" "js/copy-code.js") }}
+{{- $js := resources.Get "js/copy-code.js" -}}
+{{- if hugo.IsProduction -}}
+    {{- $js = $js | resources.Minify -}}
+{{- end -}}
+{{- $js = $js | resources.Fingerprint "sha256" -}}
+<script src="{{ $js.Permalink }}" type="text/javascript" integrity="{{ $js.Data.Integrity }}"></script>
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">

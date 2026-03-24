@@ -34,7 +34,6 @@
 </div>
 
 {{ if .Site.Menus.main }}
-
 <nav>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -42,6 +41,4 @@
     href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
     {{ end }}
 </nav>
-{{ else }}
-<nav></nav>
 {{ end }}

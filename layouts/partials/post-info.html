@@ -1,13 +1,9 @@
-{{ $dateFormat := "2006-01-02" }}
-{{ if .Site.Params.dateFormat }}
-{{ $dateFormat = .Site.Params.dateFormat }}
-{{ end }}
-{{ $machineDateFormat := "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
 
 <div class="post-info">
     {{ if .Params.date }}
     <div class="post-date dt-published">
-        <time datetime="{{ .Params.date.Format $machineDateFormat }}">
+        <time datetime="{{ .Params.date.Format "2006-01-02" }}">
             {{- .Params.date.Format $dateFormat -}}
         </time>
     </div>

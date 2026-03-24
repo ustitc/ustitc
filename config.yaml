@@ -4,7 +4,6 @@ enableRobotsTXT: true
 params:
   email: "ruslan@ustitc.me"
   author: "Ruslan Ustitc"
-  description: ""
   dateFormat: "2006-01-02"
 
 title: "Ruslan Ustitc"
