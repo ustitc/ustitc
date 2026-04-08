@@ -13,7 +13,7 @@ I expected to be more anxious but became calmer and happier instead.
 Certainly more tired and sleepy than before, but that is fine.
 
 A terrible year in terms of work, I hardly remember a day when I wanted to go to work. Days were hard,
-full of unpleasant events and too many challenges, but eventually all of that taught me several good lessons.
+full of unpleasant events, but eventually all of that taught me several good lessons.
 
 ## Gadgets
 
@@ -77,11 +77,12 @@ but for me it was quite dull.
 
 ## TV shows and films
 
-Enjoyed: 28 Days Later, [Anora](https://www.imdb.com/title/tt28607951/), 
-[Beetlejuice Beetlejuice](https://www.imdb.com/title/tt2049403/), K-pop Demon Huntress, Last of Us Season 2, 
-Love Actually, [Marvel Zombies](https://www.imdb.com/title/tt16027014/), Mickey 17, Perfect Days, 
-[Rings of Power](https://www.imdb.com/title/tt7631058/), [Soul](https://www.imdb.com/title/tt2948372/), 
-Squid Game, Stranger Things, Superman, Transformers One, The Unbearable Weight of Massive Talent, Wild Robot.
+Enjoyed: 28 Days Later, **[Anora](https://www.imdb.com/title/tt28607951/)**, 
+Beetlejuice Beetlejuice, **[K-pop Demon Hunters](https://www.imdb.com/title/tt14205554/)**, Last of Us Season 2, 
+Love Actually, **[Marvel Zombies](https://www.imdb.com/title/tt16027014/)**, Mickey 17, Perfect Days, 
+**[Rings of Power](https://www.imdb.com/title/tt7631058/)**, **[Soul](https://www.imdb.com/title/tt2948372/)**, 
+Squid Game, **[Stranger Things](https://www.imdb.com/title/tt4574334/)**, Superman, Transformers One, 
+The Unbearable Weight of Massive Talent, Wild Robot.
 
 Also watched: A Quiet Place, A Quiet Place: Day One, Absolutely Anything, Alien Romulus, Dark Shadows, Fantastic Four, 
 Godzilla, Godzilla x Kong, Hector and the Search for Happiness, Heretic, Kong, Kraven, Lightyear, Red One, Sonic 3, 
