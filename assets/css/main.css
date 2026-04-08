@@ -454,39 +454,6 @@ article video {
     padding-right: 75px;
 }
 
-.highlight:hover .highlight-copy-btn {
-    display: inline-block;
-    border: 1px solid var(--bg-color);
-}
-
-.highlight-copy-btn {
-    display: none;
-    position: absolute;
-    top: 18px;
-    right: 2px;
-    border: 0;
-    padding: 1px;
-    font-size: 0.7em;
-    line-height: 1.8;
-    color: #fff;
-    background-color: #777;
-    min-width: 25px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.highlight-copy-btn:hover {
-    transition-duration: .1s;
-    background-color: #666;
-    border: 1px solid var(--bq-color) !important;
-    cursor: pointer;
-}
-
-.highlight-copy-btn,
-.highlight-copy-btn svg {
-    vertical-align: middle;
-    margin: 8px;
-}
 
 .code-language {
     position: absolute;

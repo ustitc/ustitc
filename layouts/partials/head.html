@@ -16,14 +16,6 @@
 {{- end -}}
 {{- $css = $css | resources.Fingerprint "sha256" -}}
 <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
-
-{{- $js := resources.Get "js/copy-code.js" -}}
-{{- if hugo.IsProduction -}}
-    {{- $js = $js | resources.Minify -}}
-{{- end -}}
-{{- $js = $js | resources.Fingerprint "sha256" -}}
-<script src="{{ $js.Permalink }}" type="text/javascript" integrity="{{ $js.Data.Integrity }}"></script>
-
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
