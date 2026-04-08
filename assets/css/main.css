@@ -185,20 +185,6 @@ header h2 {
     font-weight: normal;
 }
 
-.header-top {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    vertical-align: middle;
-    margin-top: 1em
-}
-
-.header-top ul {
-    margin-top: 0;
-    margin-bottom: 0
-}
-
 .site-title {
     display: inline;
     white-space: nowrap;
@@ -372,18 +358,6 @@ article header h1 a {
     white-space: nowrap;
 }
 
-.post-tags {
-    display: inline;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.post-tags li {
-    display: inline;
-    margin-right: 1em;
-}
-
 article img {
     max-width: 100%;
     display: block;
@@ -405,14 +379,6 @@ article video {
     margin: 0 auto .5em;
 }
 
-/* Other pages */
-.terms {
-    list-style-type: none;
-    padding: 0;
-    line-height: 2em;
-}
-
-/* Copy code  */
 .highlight {
     position: relative;
     overflow: auto;
@@ -428,21 +394,6 @@ article video {
         max-width: 90%;
         margin: 0 auto;
         word-wrap: break-word;
-    }
-
-    .header-top {
-        display: block
-    }
-
-    .header-top-left {
-        display: flex;
-        justify-content: space-between
-    }
-
-    .header-top-right {
-        display: flex;
-        justify-content: space-between;
-        padding-top: .5em
     }
 
 }

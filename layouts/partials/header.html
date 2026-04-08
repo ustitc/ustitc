@@ -1,14 +1,7 @@
-<div class="header-top">
-    <div class="header-top-left">
-        <h1 class="site-title">
-            <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
-        </h1>
-    </div>
-    <div class="header-top-right">
-    </div>
-</div>
+<h1 class="site-title">
+    <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+</h1>
 
-{{ if .Site.Menus.main }}
 <nav>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -16,4 +9,3 @@
     href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
     {{ end }}
 </nav>
-{{ end }}
