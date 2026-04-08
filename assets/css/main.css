@@ -43,6 +43,7 @@ body {
 .container {
     max-width: 42rem;
     margin: 0 auto;
+    padding: 1em 0 2em;
 }
 
 main {
