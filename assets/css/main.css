@@ -223,36 +223,6 @@ header nav a {
     margin: 0 2.5%;
 }
 
-/* Social icons */
-
-.social-icons {
-    display: inline;
-    padding-right: 3em;
-    list-style-type: none;
-}
-
-.social-icons li {
-    display: inline;
-}
-
-.social-icons li:not(:first-of-type) {
-    margin-left: .5em;
-}
-
-.social-icons a:hover, .social-icons a:focus, .social-icons a:active {
-    color: inherit;
-    border-bottom: none;
-    text-decoration: none;
-}
-
-.inline-svg {
-    display: inline-block;
-    height: 1rem;
-    width: 1rem;
-    top: .20rem;
-    position: relative;
-}
-
 /* Pages */
 main h1 {
     margin-top: 1em;
@@ -491,9 +461,6 @@ article video {
         padding-top: .5em
     }
 
-    .social-icons {
-        padding: 0
-    }
 }
 
 /* syntax catppuccin-macchiato */
