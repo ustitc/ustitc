@@ -1,8 +1,8 @@
 baseUrl: "https://ustitc.me"
 enableRobotsTXT: true
+disableKinds: ["RSS"]
 
 params:
-  email: "ruslan@ustitc.me"
   author: "Ruslan Ustitc"
   dateFormat: "2006-01-02"
 
