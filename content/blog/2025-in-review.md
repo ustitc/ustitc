@@ -78,9 +78,9 @@ but for me it was quite dull.
 ## TV shows and films
 
 Enjoyed: 28 Days Later, **[Anora](https://www.imdb.com/title/tt28607951/)**, 
-Beetlejuice Beetlejuice, **[K-pop Demon Hunters](https://www.imdb.com/title/tt14205554/)**, Last of Us Season 2, 
-Love Actually, **[Marvel Zombies](https://www.imdb.com/title/tt16027014/)**, Mickey 17, Perfect Days, 
-**[Rings of Power](https://www.imdb.com/title/tt7631058/)**, **[Soul](https://www.imdb.com/title/tt2948372/)**, 
+Beetlejuice Beetlejuice, **[K-pop Demon Hunters](https://www.imdb.com/title/tt14205554/)**, Last of Us, 
+Love Actually, **[Marvel Zombies](https://www.imdb.com/title/tt16027014/)**, Mickey 17, 
+**[Perfect Days](https://www.imdb.com/title/tt27503384/)**, Rings of Power, Soul, 
 Squid Game, **[Stranger Things](https://www.imdb.com/title/tt4574334/)**, Superman, Transformers One, 
 The Unbearable Weight of Massive Talent, Wild Robot.
 
