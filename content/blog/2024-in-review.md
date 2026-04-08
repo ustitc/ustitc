@@ -40,7 +40,7 @@ I still love Obsidian and use it at work, but next year I plan to use simpler to
 quite simple and doesn't require all the advanced features of Obsidian, like note linking. Maybe someday, but
 not today.
 
-## Video game
+## Video games
 
 This was a year of horde killing roguelikes:
 
