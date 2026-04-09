@@ -6,6 +6,8 @@ draft: false
 
 Previous years: [2023](2023-in-review.md), [2022](2022-in-review.md).
 
+Next years: [2025](2025-in-review.md).
+
 ---
 
 Another relocation, this time to the UK. I hope it will be the last, at least for several years.

@@ -4,7 +4,7 @@ date: 2022-12-30
 draft: false
 ---
 
-Next years: [2024](2024-in-review.md), [2023](2023-in-review.md).
+Next years: [2025](2025-in-review.md), [2024](2024-in-review.md), [2023](2023-in-review.md).
 
 ---
 
