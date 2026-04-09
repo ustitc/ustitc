@@ -50,7 +50,6 @@ main {
 /* Headers */
 h1,h2,h3 {
     margin-top: 2em;
-    font-family: "Metal Mania", cursive;
 }
 
 h1 {
@@ -297,7 +296,6 @@ article header h1 a {
     color: var(--post-info-color);
     border-bottom: none;
     margin-left: 0.3em;
-    font-family: "Metal Mania", cursive;
 }
 
 .post h1:hover a,

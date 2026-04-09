@@ -1,7 +1,9 @@
 # Yo!
 
-My name is Ruslan, I develop software, most of the time in Java and Kotlin.
+My name is Ruslan, I build software and read too much philosophy. 
 
-Social links:
+> *"The world is increasingly unthinkable"*
+> 
+> Eugene Thacker, In the Dust of This Planet: Horror of Philosophy
 
-- [GitHub](https://github.com/ustitc)
+[GitHub](https://github.com/ustitc)
