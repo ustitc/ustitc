@@ -1,27 +1,24 @@
 :root {
-    --font-color: #eee;
-    --bg-color: #212121;
+    --font-color: #d0d0d0;
+    --bg-color: #0d0d0d;
 
-    --link-color: #599ada;
-    --link-state-color: #fa5589;
-    --link-state-border-color: rgba(238, 54, 54, 0.5);
+    --link-color: #c43c3c;
+    --link-state-color: #e05555;
+    --link-state-border-color: rgba(196, 60, 60, 0.4);
 
-    --thead-bg-color: #343a40;
-    --table-border-color: lightgrey;
+    --thead-bg-color: #1a1a1a;
+    --table-border-color: #333;
 
-    --nav-bg-color: #242424;
-    --nav-link-color: #b6b6b6;
+    --nav-bg-color: #111;
+    --nav-link-color: #888;
 
     --pre-color: #f8f8f2;
-    --pre-bg-color: #272822;
+    --pre-bg-color: #111;
 
-    --bq-color: #ccc;
-    --hr-color: #333;
+    --bq-color: #666;
+    --hr-color: #222;
 
-    --post-info-color: grey;
-
-    --svg-color: #ccc;
-    --svg-state-color: #ff5858;
+    --post-info-color: #777;
 }
 
 /* Basic */
@@ -35,7 +32,7 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
@@ -53,6 +50,7 @@ main {
 /* Headers */
 h1,h2,h3 {
     margin-top: 2em;
+    font-family: "Metal Mania", cursive;
 }
 
 h1 {
@@ -190,19 +188,21 @@ header h2 {
     display: inline;
     white-space: nowrap;
     margin-top: 0;
-    font-size: 16px;
+    font-size: 24px;
+    font-family: "Metal Mania", cursive;
 }
 
 header nav {
-    font-size: 16px;
+    font-size: 14px;
+    font-family: "Fira Code", monospace;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
 }
 
 header nav:not(:empty) {
-    background: var(--nav-bg-color);
-    margin-top: 1em;
-    max-width: 100%;
-    text-align: center;
-    padding: 0.5em 0;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--hr-color);
 }
 
 header nav a {
@@ -216,6 +216,7 @@ main h1 {
     font-weight: normal;
     line-height: 1.1em;
     margin-bottom: 0.5em;
+    font-family: "Metal Mania", cursive;
 }
 
 .post-short-list:first-of-type {
@@ -224,7 +225,8 @@ main h1 {
 
 /* Articles */
 
-.content {
+.content,
+.homepage-content {
     font-family: "PT Serif", Georgia, serif;
     font-size: 18px;
 }
@@ -264,6 +266,8 @@ main h1 {
 
 .post-short-list .post-title {
     display: inline;
+    font-family: "Metal Mania", cursive;
+    font-size: 1.35em;
 }
 
 article:not(:last-of-type) {
@@ -277,6 +281,7 @@ article header h1 {
     margin-bottom: 0.5em;
     font-weight: 600;
     display: inline;
+    font-family: "Metal Mania", cursive;
 }
 
 article header h1 a {
@@ -285,55 +290,27 @@ article header h1 a {
     text-decoration: none;
 }
 
-.post h1,
-.post h2,
-.post h3 {
-    position: relative;
-}
-
 .post h1 a,
 .post h2 a,
 .post h3 a {
     opacity: 0;
-    position: absolute;
-    left: -1.2rem;
+    color: var(--post-info-color);
+    border-bottom: none;
+    margin-left: 0.3em;
+    font-family: "Metal Mania", cursive;
 }
 
 .post h1:hover a,
 .post h2:hover a,
 .post h3:hover a {
     opacity: 1;
-    border-bottom: none;
 }
 
 .post h1 a:hover,
-.post h1 a:focus,
-.post h1 a:active,
 .post h2 a:hover,
-.post h2 a:focus,
-.post h2 a:active,
-.post h3 a:hover,
-.post h3 a:focus,
-.post h3 a:active {
+.post h3 a:hover {
+    color: var(--link-state-color);
     border-bottom: none;
-}
-
-.post h1 svg,
-.post h2 svg,
-.post h3 svg {
-    stroke: var(--svg-color);
-}
-
-.post h1 svg:hover,
-.post h1 svg:focus,
-.post h1 svg:active,
-.post h2 svg:hover,
-.post h2 svg:focus,
-.post h2 svg:active,
-.post h3 svg:hover,
-.post h3 svg:focus,
-.post h3 svg:active {
-    stroke: var(--svg-state-color);
 }
 
 .post-info {
