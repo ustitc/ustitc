@@ -32,7 +32,7 @@ engaging, but I am not willing to pay for a PS Plus subscription for that.
 However, there was an exception: [It Takes Two](https://www.youtube.com/watch?v=GAWHzGNcTEw).
 The game is weird in the best way, and Dr. Hakim is magnificent.
 
-![Dr. Hakim talks about Collaboration](/dr-hakim-collaboration.gif)
+![Dr. Hakim talks about Collaboration](https://gifdb.com/images/high/collaboration-it-takes-two-game-dr-hakim-y2bdxad2zdpbg85u.gif)
 
 ## Software
 
