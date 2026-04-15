@@ -1,6 +1,6 @@
 baseUrl: "https://ustitc.me"
 enableRobotsTXT: true
-disableKinds: ["RSS"]
+disableKinds: ["RSS", "taxonomy", "term"]
 
 params:
   dateFormat: "2006-01-02"
