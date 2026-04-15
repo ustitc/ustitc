@@ -21,3 +21,7 @@ menu:
       identifier: blog
       url: /blog/
       weight: 1
+    - name: Contact
+      identifier: contact
+      url: "mailto:ruslan@ustitc.me"
+      weight: 2
