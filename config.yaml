@@ -11,7 +11,7 @@ markup:
   goldmark:
     renderHooks:
       link:
-        enableDefault: true
+        useEmbedded: fallback
   highlight:
     noClasses: false
 
