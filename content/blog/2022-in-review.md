@@ -2,6 +2,7 @@
 title: "2022 in review"
 date: 2022-12-30
 draft: false
+description: "Hatred, sadness, and relocation."
 ---
 
 Next years: [2025](2025-in-review.md), [2024](2024-in-review.md), [2023](2023-in-review.md).

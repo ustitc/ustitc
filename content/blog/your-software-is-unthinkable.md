@@ -2,6 +2,7 @@
 title: "Your software is unthinkable"
 date: 2026-04-11
 draft: false
+description: "Systems withdraw from understanding. No matter how much you try, the full picture doesn't exist."
 ---
 
 I think about systems I build, but they **withdraw** from me. I am deep into inputs/outputs, business rules and

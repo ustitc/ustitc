@@ -4,6 +4,13 @@
 <title>{{ if and (.Title) (not .IsHome) }}{{ .Title | markdownify }} - {{ end }}{{ .Site.Title | markdownify }}</title>
 <meta name="description" content="{{ .Description }}">
 
+<!-- Open Graph -->
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
 <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
 
 {{- $css := resources.Get "css/main.css" -}}

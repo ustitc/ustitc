@@ -2,6 +2,7 @@
 title: "2025 in review"
 date: 2026-04-08
 draft: false
+description: "Fatherhood, burnout and philosophy."
 ---
 
 Previous years: [2024](2024-in-review.md), [2023](2023-in-review.md), [2022](2022-in-review.md).

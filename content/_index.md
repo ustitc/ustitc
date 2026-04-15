@@ -1,3 +1,7 @@
+---
+description: "Software, philosophy, and the things that unsettle."
+---
+
 # Yo!
 
 My name is Ruslan, I build software and read too much philosophy. 

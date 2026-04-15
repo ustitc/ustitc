@@ -2,6 +2,7 @@
 title: "2024 in review"
 date: 2024-12-30
 draft: false
+description: "Relocation to the UK."
 ---
 
 Previous years: [2023](2023-in-review.md), [2022](2022-in-review.md).

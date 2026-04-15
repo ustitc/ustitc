@@ -2,6 +2,7 @@
 title: "2023 in review"
 date: 2023-12-30
 draft: false
+description: "Relocation to the UAE and a new job."
 ---
 
 Previous years: [2022](2022-in-review.md).
