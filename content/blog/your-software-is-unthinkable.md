@@ -23,7 +23,7 @@ The scale doesn't matter, it can be distributed services or a short script that 
 escapes you. It is a matter of how much things are being lost from your attention.
 
 If you know your code by heart, can you predict all possible outcomes of the system? If you know the outcomes, can you
-predict all the inputs, even the unpredictable ones like byte flips? If you know all the inputs and are prepared for the
+predict all the inputs, even the unpredictable ones like bit flips? If you know all the inputs and are prepared for the
 unexpected, do you know how your hardware works and when it will stop? Even if you knew all of this, do you know how
 users will use it tomorrow? Do you know how **you** will use it in a year?
 
